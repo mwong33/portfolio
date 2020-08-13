@@ -13,16 +13,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
   return (
     <>
-      <NavBar />
       <Router>
-        <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route path="/experience" component={Experience}></Route>
-          <Route path="/projects" component={Projects}></Route>
-          <Route path="/referrals" component={Referrals}></Route>
-        </Switch>
+        <NavBar />
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/experience" component={Experience}></Route>
+            <Route path="/projects" component={Projects}></Route>
+            <Route path="/referrals" component={Referrals}></Route>
+          </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
