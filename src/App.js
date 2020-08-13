@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
-import Home from './components/Home.js';
-import Experience from './components/Experience.js';
-import Projects from './components/Projects.js';
-import Referrals from './components/Referrals.js';
+import Home from './pages/Home.js';
+import Experience from './pages/Experience.js';
+import Projects from './pages/Projects.js';
+import Referrals from './pages/Referrals.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
