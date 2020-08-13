@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export default function NavBar() {
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" expand="lg">
             <Navbar.Brand>Matthew Wong</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
