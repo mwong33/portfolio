@@ -21,8 +21,8 @@ function App() {
             <Route path="/projects" component={Projects}></Route>
             <Route path="/referrals" component={Referrals}></Route>
           </Switch>
-        <Footer />
       </Router>
+      <Footer />
     </>
   );
 }

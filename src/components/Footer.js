@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import GitHub_Logo from '../images/GitHub-Mark-32px.png'
-import LinkedIn_Logo from '../images/LinkedIn-Logo.png'
+import React, { Component } from 'react';
+import GitHub_Logo from '../images/GitHub-Mark-32px.png';
+import LinkedIn_Logo from '../images/LinkedIn-Logo.png';
 
 export class Footer extends Component {
     render() {
