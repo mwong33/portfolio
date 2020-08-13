@@ -8,7 +8,7 @@ export default function Home() {
         <div id="home">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 text-center">
+                    <div className="col-12 text-center p-0">
                         <img alt="Space" src={TableTennis} className="mh-100 mw-100"/>
                         <div className="centered border-box">
                             <h1 className="text-white">Hello, I'm Matthew</h1>
