@@ -37,16 +37,12 @@
   }
 }
 
-.icon {
-  height: 32px;
-  width: 32px;
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.footer{
-  margin-top: 1rem;
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.content-wrap {
+  flex:1;
 }
