@@ -1,8 +1,7 @@
 import React from 'react';
 import TableTennis from '../images/TableTennis.jpg';
-import DataBaseImage from '../images/Database.jpg';
-import CloudImage from '../images/Cloud.jpg';
-import CodeImage from '../images/Code.jpg';
+import ReactLogo from '../images/React.png';
+import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
 import { Button, CardDeck, Card } from 'react-bootstrap';
 
@@ -24,7 +23,7 @@ export default function Home() {
                 {/* Introduction */}
                 <div className="row row-section align-items-center bg-dark">
                     <div className="col-12 text-center">
-                        <h3 className="text-white">Welcome to my porfolio!</h3>
+                        <h2 className="text-white">Welcome to my porfolio!</h2>
                         <p className="text-white">This is your one stop shop to learn more about me and my experiences!</p>
                     </div>
                 </div>
@@ -33,45 +32,32 @@ export default function Home() {
                     <div className="col-12">
                         <div className="row">
                             <div className="col-12 text-center pt-4 pb-3">
-                                <h3 className="font-weight-bold">My Skillset</h3>
+                                <h2 className="font-weight-bold">My Skillset</h2>
                                 <p className="font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
                             </div>
                         </div>
+                        <div className="row align-items-around">
+                            <div className="col-md-6">
+                                
+                            </div>
+                            <div className="col-md-6">
+                                
+                            </div>
+                        </div>
                         <div className="row">
-                            <CardDeck>
-                                <Card className="ml-5 mr-5 mb-5 border-0">
-                                    <Card.Img variant="top" src={ CodeImage } />
-                                    <Card.Body>
-                                    <Card.Title>Languages/Frameworks</Card.Title>
-                                    <Card.Text>
-                                    </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card className="ml-5 mr-5 mb-5 border-0">
-                                    <Card.Img variant="top" src={ DataBaseImage } />
-                                    <Card.Body>
-                                    <Card.Title>DB</Card.Title>
-                                    <Card.Text>
-                                    </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card className="ml-5 mr-5 mb-5 border-0">
-                                    <Card.Img variant="top" src={ CloudImage } />
-                                    <Card.Body>
-                                    <Card.Title>Cloud Deployment</Card.Title>
-                                    <Card.Text>
-                                    </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </CardDeck>
+                            <div className="col-md-6">
+                                
+                            </div>
+                            <div className="col-md-6">
+                           
+                            </div>
                         </div>
                     </div>
                 </div>
                 {/* Introduction */}
                 <div className="row row-section align-items-center bg-dark">
                     <div className="col-12 text-center">
-                        <h3 className="text-white">I build this website from scratch!</h3>
-                        <p className="text-white">With help from React and Bootstrap :)</p>
+                        <h2 className="text-white">Made with <img alt="React" src={ ReactLogo } className="medium-icon"/> + <img alt="Bootstrap" src= { BootstrapLogo } className="medium-icon"/></h2>
                     </div>
                 </div>
             </div>
