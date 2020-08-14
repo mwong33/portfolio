@@ -1,3 +1,7 @@
+.black-background {
+  background-color: lightblue;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -5,10 +9,11 @@
   transform: translate(-50%, -50%);
 }
 
-.title-responsive-text {
-  font-size:5vw;
+.row-section {
+  height: 300px;
 }
 
-.paragraph-responsive-text {
-  font-size:3vw;
+.icon {
+  height: 30px;
+  width: 30px;
 }
