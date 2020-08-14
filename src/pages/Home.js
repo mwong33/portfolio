@@ -22,19 +22,19 @@ export default function Home() {
                     </div>
                 </div>
                 {/* Introduction */}
-                <div className="row row-section align-items-center">
+                <div className="row row-section align-items-center bg-dark">
                     <div className="col-12 text-center">
-                        <h3>Welcome to my porfolio!</h3>
-                        <p>This is your one stop shop to learn more about me and my experiences!</p>
+                        <h3 className="text-white">Welcome to my porfolio!</h3>
+                        <p className="text-white">This is your one stop shop to learn more about me and my experiences!</p>
                     </div>
                 </div>
                 {/* Skills */}
-                <div className="row black-background">
+                <div className="row">
                     <div className="col-12">
                         <div className="row">
                             <div className="col-12 text-center pt-4 pb-3">
-                                <h3 className="text-white font-weight-bold">My Skillset</h3>
-                                <p className="text-white font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
+                                <h3 className="font-weight-bold">My Skillset</h3>
+                                <p className="font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
                             </div>
                         </div>
                         <div className="row">
@@ -44,15 +44,6 @@ export default function Home() {
                                     <Card.Body>
                                     <Card.Title>Languages/Frameworks</Card.Title>
                                     <Card.Text>
-                                        <ul className="list-group list-group-flush">
-                                            <li className="list-group-item">Java</li>
-                                            <li className="list-group-item">Python</li>
-                                            <li className="list-group-item">JavaScript</li>
-                                            <li className="list-group-item">HTML 5</li>
-                                            <li className="list-group-item">CSS</li>
-                                            <li className="list-group-item">Node.js</li>
-                                            <li className="list-group-item">Bootstrap</li>
-                                        </ul>
                                     </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -61,10 +52,6 @@ export default function Home() {
                                     <Card.Body>
                                     <Card.Title>DB</Card.Title>
                                     <Card.Text>
-                                        <ul className="list-group list-group-flush">
-                                            <li className="list-group-item">MySQL</li>
-                                            <li className="list-group-item">MongoDB</li>
-                                        </ul>
                                     </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -73,15 +60,18 @@ export default function Home() {
                                     <Card.Body>
                                     <Card.Title>Cloud Deployment</Card.Title>
                                     <Card.Text>
-                                        <ul className="list-group list-group-flush">
-                                            <li className="list-group-item">AWS ElasticBeanstalk</li>
-                                            <li className="list-group-item">Google Cloud Platform App Engine</li>
-                                        </ul>
                                     </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </CardDeck>
                         </div>
+                    </div>
+                </div>
+                {/* Introduction */}
+                <div className="row row-section align-items-center bg-dark">
+                    <div className="col-12 text-center">
+                        <h3 className="text-white">I build this website from scratch!</h3>
+                        <p className="text-white">With help from React and Bootstrap :)</p>
                     </div>
                 </div>
             </div>
