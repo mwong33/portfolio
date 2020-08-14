@@ -11,9 +11,9 @@ export default function Home() {
                     <div className="col-12 text-center p-0">
                         <img alt="Space" src={TableTennis} className="mh-100 mw-100"/>
                         <div className="centered border-box">
-                            <h1 className="text-white">Hello, I'm Matthew</h1>
-                            <h3 className="text-white ">M.S. CS Student at USC</h3>
-                            <Button variant="light">Download Resume</Button>{' '}
+                            <h1 className="text-white title-responsive-text">Hello, I'm Matthew</h1>
+                            <p className="text-white paragraph-responsive-text font-italic">M.S. CS Student at USC</p>
+                            <Button variant="light rounded-0">Download Resume</Button>{' '}
                         </div>
                     </div>
                 </div>
