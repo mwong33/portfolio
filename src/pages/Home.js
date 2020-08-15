@@ -25,17 +25,14 @@ export default function Home() {
         {skill: "Flask", score: 80}
     ]
 
-    const databases = [
+    const dbCloud = [
         {skill: "MySQL", score: 80},
-        {skill: "MongoDB", score: 70}
+        {skill: "MongoDB", score: 70},
+        {skill: "AWS", score: 60},
+        {skill: "GCP", score: 70}
 
     ]
     
-    const cloudServices = [
-        {skill: "AWS", score: 60},
-        {skill: "GCP", score: 70}
-    ]
-
     return (
         <div id="home">
             <div className="container-fluid">
@@ -66,20 +63,15 @@ export default function Home() {
                                 <p className="font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
                             </div>
                         </div>
-                        <div className="row align-items-around">
-                            <div className="col-md-6">
+                        <div className="row align-items-around mb-5">
+                            <div className="col-md-4">
                                 <SkillBarGroup skills={ languages }/>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                                 <SkillBarGroup skills={ frameworks }/>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                                <SkillBarGroup skills={ databases }/>
-                            </div>
-                            <div className="col-md-6">
-                                <SkillBarGroup skills={ cloudServices }/>
+                            <div className="col-md-4">
+                                <SkillBarGroup skills={ dbCloud }/>
                             </div>
                         </div>
                     </div>
