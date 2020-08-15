@@ -32,8 +32,8 @@ export default function Home() {
     ]
     
     const cloudServices = [
-        {skill: "AWS Elastic Beanstalk", score: 60},
-        {skill: "Google Cloud Platform - App Engine", socre: 70}
+        {skill: "AWS", score: 60},
+        {skill: "GCP", score: 70}
     ]
 
     return (
