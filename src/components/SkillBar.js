@@ -1,26 +1,17 @@
 import React from 'react';
 import './SkillBar.css';
-import $ from 'jquery';
 
 export default function SkillBar({ skillSet }) {
 
-    $('.skill-score').each(() => {
-        let $this = $(this);
-        let score = $this.attr('score');
-        $this.css("width", score+'%');
-        $({animatedValue: 0}).animate({animatedValue: score},{
-            duration: 1000,
-            step: function() {
-                $this.attr('score', Math.floor(this.animatedValue));
-            }
-        });
-    });
+    const skillScoreStyle = {
+        width: `${skillSet.score}%`
+    }
 
     return (
-        <div class="skill">
-            <div class="skill-name">{ skillSet.skill }</div>
-            <div class="skill-bar">
-                <div class="skill-score" score={ skillSet.score }></div>
+        <div className="skill">
+            <div className="skill-name">{ skillSet.skill }</div>
+            <div className="skill-bar">
+                <div className="skill-score" score={ skillSet.score } style={skillScoreStyle}></div>
             </div>
         </div>
     )
