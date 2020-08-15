@@ -1,11 +1,41 @@
 import React from 'react';
+import SkillBarGroup from '../components/SkillBarGroup.js';
 import TableTennis from '../images/TableTennis.jpg';
 import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
-import { Button, CardDeck, Card } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 export default function Home() {
+
+    const languages = [
+        {skill: "HTML", score: 90},
+        {skill: "CSS", score: 90},
+        {skill: "JavaScript", score: 70},
+        {skill: "Java", score: 95},
+        {skill: "Python", score: 95},
+        {skill: "C++", score: 70}
+    ];
+    
+    const frameworks = [
+        {skill: "Angular", score: 60},
+        {skill: "Bootstrap", score: 85},
+        {skill: "React", score: 70},
+        {skill: "Express", score: 80},
+        {skill: "Flask", score: 80}
+    ]
+
+    const databases = [
+        {skill: "MySQL", score: 80},
+        {skill: "MongoDB", score: 70}
+
+    ]
+    
+    const cloudServices = [
+        {skill: "AWS Elastic Beanstalk", score: 60},
+        {skill: "Google Cloud Platform - App Engine", socre: 70}
+    ]
+
     return (
         <div id="home">
             <div className="container-fluid">
@@ -38,18 +68,18 @@ export default function Home() {
                         </div>
                         <div className="row align-items-around">
                             <div className="col-md-6">
-                                
+                                <SkillBarGroup skills={ languages }/>
                             </div>
                             <div className="col-md-6">
-                                
+                                <SkillBarGroup skills={ frameworks }/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-6">
-                                
+                                <SkillBarGroup skills={ databases }/>
                             </div>
                             <div className="col-md-6">
-                           
+                                <SkillBarGroup skills={ cloudServices }/>
                             </div>
                         </div>
                     </div>
