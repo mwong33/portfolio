@@ -4,27 +4,35 @@
         "title": "Backend Team Lead",
         "time": "June 2020 - Aug 2020",
         "location": "Los Angeles, CA",
-        "summary": "As the Backend Team Lead for Project Minions, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB. My main responsabilities included developing a roadmap, hosting sprint meetings, consulting and communicating with external teams, and providing design feedback to my team members."
+        "summary": "As the Backend Team Lead for Project Minions, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB.",
+        "skills": ["MongoDB", "Node.js", "Express", "AWS Elastic Beanstalk", "AWS S3 Bucket", "Trello"],
+        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team", "Organized Weekly Sprints", "Consulted and Provided technology solutions for external teams", "Mentored team members on running meetings and writing agendas/briefs", "Provided Direction & Collaboration with team members on areas of research", " Research, Development, & Testing of Emerging Technologies: Spatial Anchors, AWS, APIs, NoSQL, etc.", "Master Architectural Design & Documentation: Extended Functionality & Scope of Project"]
     },
     {
         "company": "Qualtrics", 
         "title": "Software Test Engineer II", 
         "time": "Oct 2019 – Aug 2020", 
         "location": "Provo, UT", 
-        "summary": "As a Software Test Engineer II at Qualtrics, I was more heavily involved with cross-team projects, including product wide shadow testing, and web-crawling test frameworks."
+        "summary": "As a Software Test Engineer II at Qualtrics, I was more heavily involved with cross-team projects, including product wide shadow testing, and web-crawling test frameworks.",
+        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"],
+        "details": []
     },
     {
         "company": "Qualtrics", 
         "title": "Software Test Engineer I", 
         "time": "May 2017 – Sep 2019", 
         "location": "Provo, UT", 
-        "summary": "As a Software Test Engineer at Qualtrics, I drove QE (Quality Engineering) practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines."
+        "summary": "As a Software Test Engineer at Qualtrics, I drove QE (Quality Engineering) practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
+        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"],
+        "details": []
     },
     {
         "company": "Qualtrics", 
         "title": "Product Analyst", 
         "time": "Jan 2016 – Apr 2017", 
         "location": "Provo, UT", 
-        "summary": "Provided second level support for Qualtrics’ Research Core and Employee Experience Platform. Compiled and provided data regarding the nature and severity of support ticket drivers for product meetings."
+        "summary": "Provided second level support for Qualtrics’ Research Core and Employee Experience Platform. Compiled and provided data regarding the nature and severity of support ticket drivers for product meetings.",
+        "skills": ["Jira", "Excel"],
+        "details": []
     }
 ]
