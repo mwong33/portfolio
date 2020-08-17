@@ -20,22 +20,6 @@ export default function Home() {
         {skill: "C++", score: 70}
     ];
     
-    const frameworks = [
-        {skill: "Angular", score: 60},
-        {skill: "Bootstrap", score: 85},
-        {skill: "React", score: 70},
-        {skill: "Express", score: 80},
-        {skill: "Flask", score: 80}
-    ]
-
-    const dbCloud = [
-        {skill: "MySQL", score: 80},
-        {skill: "MongoDB", score: 70},
-        {skill: "AWS", score: 60},
-        {skill: "GCP", score: 70}
-
-    ]
-    
     return (
         <motion.div id="home" initial="out" animate="in" exit="out" variants={pageTransition}>
             <div className="container-fluid">
@@ -66,15 +50,9 @@ export default function Home() {
                                 <p className="font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
                             </div>
                         </div>
-                        <div className="row align-items-around mb-5">
-                            <div className="col-md-4">
+                        <div className="row justify-content-center mb-5">
+                            <div className="col-md-6 col-xs-12">
                                 <SkillBarGroup skills={ languages }/>
-                            </div>
-                            <div className="col-md-4">
-                                <SkillBarGroup skills={ frameworks }/>
-                            </div>
-                            <div className="col-md-4">
-                                <SkillBarGroup skills={ dbCloud }/>
                             </div>
                         </div>
                     </div>
