@@ -6,7 +6,7 @@ export class NavBar extends Component {
     render() {
         return (
             <Navbar bg="light" variant="light" expand="sm">
-                <Navbar.Brand>Matthew Wong</Navbar.Brand>
+                <Navbar.Brand href="/">Matthew Wong</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
