@@ -6,7 +6,7 @@
         "location": "Los Angeles, CA",
         "summary": "As the Backend Team Lead for Project Minions, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB.",
         "skills": ["MongoDB", "Node.js", "Express", "AWS Elastic Beanstalk", "AWS S3 Bucket", "Trello"],
-        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team", "Organized Weekly Sprints", "Consulted and Provided technology solutions for external teams", "Mentored team members on running meetings and writing agendas/briefs", "Provided Direction & Collaboration with team members on areas of research", " Research, Development, & Testing of Emerging Technologies: Spatial Anchors, AWS, APIs, NoSQL, etc.", "Master Architectural Design & Documentation: Extended Functionality & Scope of Project"]
+        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team.", "Organized Weekly Sprints.", "Consulted and Provided technology solutions for external teams.", "Mentored team members on running meetings and writing agendas/briefs.", "Provided Direction & Collaboration with team members on areas of research.", " Research, Development, & Testing of Emerging Technologies: Spatial Anchors, AWS, APIs, NoSQL, etc."]
     },
     {
         "company": "Qualtrics", 
@@ -14,8 +14,8 @@
         "time": "Oct 2019 – Aug 2020", 
         "location": "Provo, UT", 
         "summary": "As a Software Test Engineer II at Qualtrics, I was more heavily involved with cross-team projects, including product wide shadow testing, and web-crawling test frameworks.",
-        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"],
-        "details": []
+        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira", "Sumo Logic"],
+        "details": ["Converted my developer team's manual release process to Continuous Deployment via Jenkins 2.", "Spearheaded the transition and adoption of a new test framework that utilizes pytest.", "Organized the migration of end to end test framework's public API usage from V2 to V3.", "Developed a new test framework designed to crawl through every page of the product and allow other contributers to perform certain actions on those pages.", "Hosted training seminars on how to convert a manual Continuous Delivery pipeline in Jenkins to Continuous Deployment."]
     },
     {
         "company": "Qualtrics", 
@@ -24,7 +24,7 @@
         "location": "Provo, UT", 
         "summary": "As a Software Test Engineer at Qualtrics, I drove QE (Quality Engineering) practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
         "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"],
-        "details": []
+        "details": ["Owned, developed and maintined all survey taking end-to-end test automation within Qualtrics.", "Contributed to a selenium based E2E test framework written in Python.", "Contributed to an appium based E2E test framework written in Java.", "Migrated our old release pipelines from Jenkins to Jenkins 2."]
     },
     {
         "company": "Qualtrics", 
@@ -33,6 +33,6 @@
         "location": "Provo, UT", 
         "summary": "Provided second level support for Qualtrics’ Research Core and Employee Experience Platform. Compiled and provided data regarding the nature and severity of support ticket drivers for product meetings.",
         "skills": ["Jira", "Excel"],
-        "details": []
+        "details": ["Specialized in Qualtrics' Employee Experience Platform.", "Escalated Tier 1 and Tier 2 client issues directly to Engineering.", "Filed bug reports with reproducable steps for Engineering via Jira."]
     }
 ]

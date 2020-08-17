@@ -40,7 +40,7 @@ export default function ExperienceCard({experience}) {
                                         </ul>
                                     </div>
                                     <div className="col-sm-6 col-xs-12">
-                                        <span className="font-weight-bold">Skills</span>
+                                        <span className="font-weight-bold">Skills Learned</span>
                                         <ul className="mt-2 mb-2">
                                         { experience.skills.map((skill, index) => {
                                                 return <li key={ index }>{skill}</li>
