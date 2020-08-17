@@ -1,9 +1,12 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
+import pageTransition from '../data/PageTransition.js';
 
 export default function Projects() {
     return (
-        <div>
+        <motion.div id="projects" initial="out" animate="in" exit="out" variants={pageTransition}>
             <p>Projects</p>
-        </div>
+        </motion.div>
     )
 }

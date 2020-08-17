@@ -1,10 +1,13 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import SkillBarGroup from '../components/SkillBarGroup.js';
 import TableTennis from '../images/TableTennis.jpg';
 import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
 import { Button } from 'react-bootstrap';
+
+import pageTransition from '../data/PageTransition.js';
 
 export default function Home() {
 
@@ -34,7 +37,7 @@ export default function Home() {
     ]
     
     return (
-        <div id="home">
+        <motion.div id="home" initial="out" animate="in" exit="out" variants={pageTransition}>
             <div className="container-fluid">
                 {/* Background Image */}
                 <div className="row">
@@ -83,6 +86,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

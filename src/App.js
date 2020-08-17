@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
@@ -17,12 +18,14 @@ function App() {
         <div className="content-wrap">
           <Router>
             <NavBar />
+            <AnimatePresence>
               <Switch>
                 <Route exact path="/" component={Home}></Route>
                 <Route path="/experience" component={Experience}></Route>
                 <Route path="/projects" component={Projects}></Route>
                 <Route path="/referrals" component={Referrals}></Route>
               </Switch>
+            </AnimatePresence>
           </Router>
         </div>
         <Footer />
