@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CardDeck } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard.js';
-import TheProjects from '../data/theProjects.json';
+import TheProjects from '../data/TheProjects.js';
 
 import pageTransition from '../data/PageTransition.js';
 
