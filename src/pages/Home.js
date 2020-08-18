@@ -30,7 +30,7 @@ export default function Home() {
                         <div className="centered border-box">
                             <h1 className="text-white">Hello, I'm Matthew</h1>
                             <p className="text-white paragraph-responsive-text font-italic font-weight-bold">M.S. CS Student at USC</p>
-                            <Button variant="light rounded-0">Download Resume</Button>{' '}
+                            <Button variant="light rounded-0">View Resume</Button>{' '}
                         </div>
                     </div>
                 </div>
