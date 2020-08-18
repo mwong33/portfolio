@@ -10,7 +10,7 @@ export default function Projects() {
     return (
         <motion.div id="projects" initial="out" animate="in" exit="out" variants={pageTransition}>
             <div className="continer">
-                <div className="row mt-5 mb-5 text-center">
+                <div className="row mt-5 mb-3 text-center">
                     <div className="col-12">
                         <h1>My Projects</h1>
                         <p className="font-italic">More to come!</p>
