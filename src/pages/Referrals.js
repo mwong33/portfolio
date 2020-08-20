@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Carousel } from 'react-bootstrap';
 
 import pageTransition from '../data/PageTransition.js';
 

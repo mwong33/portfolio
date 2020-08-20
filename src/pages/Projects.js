@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CardDeck } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard.js';
 import TheProjects from '../data/TheProjects.js';
 
