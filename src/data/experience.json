@@ -4,9 +4,9 @@
         "title": "Backend Team Lead",
         "time": "June 2020 - Aug 2020",
         "location": "Los Angeles, CA",
-        "summary": "As the Backend Team Lead for Project Minions, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB.",
+        "summary": "As a Backend Team Lead, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB.",
         "skills": ["MongoDB", "Node.js", "Express", "AWS Elastic Beanstalk", "AWS S3 Bucket", "Trello"],
-        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team.", "Organized Weekly Sprints.", "Consulted and Provided technology solutions for external teams.", "Mentored team members on running meetings and writing agendas/briefs.", "Provided Direction & Collaboration with team members on areas of research.", " Research, Development, & Testing of Emerging Technologies: Spatial Anchors, AWS, APIs, NoSQL, etc."]
+        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team.", "Hosted and Organized Weekly Sprints.", "Consulted and Provided technology solutions for external teams.", "Mentored team members on running meetings and writing agendas/briefs.", "Provided Direction and Collaboration with team members on areas of research.", " Research, Development, and Testing of Emerging Technologies: Spatial Anchors, AWS EB v.s. Lambda, APIs, MongoDB v.s. DynamoDB, etc."]
     },
     {
         "company": "Qualtrics", 
