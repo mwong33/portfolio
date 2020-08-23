@@ -6,7 +6,7 @@ import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
 import { Button } from 'react-bootstrap';
-
+import Resume from '../pdf/Matthew_James_Wong\'s_Resume_Q3_2020.pdf';
 import pageTransition from '../data/PageTransition.js';
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
                         <div className="centered border-box">
                             <h1 className="text-white">Hello, I'm Matthew</h1>
                             <p className="text-white paragraph-responsive-text font-italic font-weight-bold">M.S. CS Student at USC</p>
-                            <Button variant="light rounded-0">View Resume</Button>{' '}
+                            <a href = { Resume } className="link-unstyled"><Button variant="light rounded-0">View Resume</Button></a>
                         </div>
                     </div>
                 </div>
