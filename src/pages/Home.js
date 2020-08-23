@@ -30,7 +30,7 @@ export default function Home() {
                         <div className="centered border-box">
                             <h1 className="text-white">Hello, I'm Matthew</h1>
                             <p className="text-white paragraph-responsive-text font-italic font-weight-bold">M.S. CS Student at USC</p>
-                            <a href = { Resume } className="link-unstyled"><Button variant="light rounded-0">View Resume</Button></a>
+                            <a href={ Resume } className="link-unstyled"><Button variant="light rounded-0">View Resume</Button></a>
                         </div>
                     </div>
                 </div>

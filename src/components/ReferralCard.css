@@ -1,0 +1,9 @@
+.footer-text {
+    max-height: 25px;
+    height: auto;
+}
+
+.link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active {
+    color: black;
+    text-decoration: none;
+}

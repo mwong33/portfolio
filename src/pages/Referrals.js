@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import ReferralsData from '../data/ReferralsData.js';
+import ReferralCard from '../components/ReferralCard.js';
 import pageTransition from '../data/PageTransition.js';
 
 export default function Referrals() {
@@ -13,6 +14,11 @@ export default function Referrals() {
                         <p className="font-italic">What people think of me!</p>
                     </div>
                 </div>
+                {
+                    ReferralsData.map((Referral, index) => {
+                        return <ReferralCard key={ index } referral={ Referral }/>
+                    })
+                }
             </div>
         </motion.div>
     )
