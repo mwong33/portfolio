@@ -15,7 +15,7 @@
         "location": "Provo, UT", 
         "summary": "As a Software Test Engineer II at Qualtrics, I was more heavily involved with cross-team projects, including product wide shadow testing, and web-crawling test frameworks.",
         "skills": ["Python", "Appium", "Java", "Jenkins", "Jira", "Sumo Logic"],
-        "details": ["Converted my developer team's manual release process to Continuous Deployment via Jenkins 2.", "Spearheaded the transition and adoption of a new test framework that utilizes pytest.", "Organized the migration of end to end test framework's public API usage from V2 to V3.", "Developed a new test framework designed to crawl through every page of the product and allow other contributers to perform certain actions on those pages.", "Hosted training seminars on how to convert a manual Continuous Delivery pipeline in Jenkins to Continuous Deployment."]
+        "details": ["Converted my developer team's manual release process to Continuous Deployment via Jenkins 2.", "Spearheaded the transition and adoption of a new test framework that utilizes pytest.", "Organized the migration of our company’s end to end test framework's public API usage to the latest version.", "Developed a new test framework designed to crawl through every page of the product and allow other contributors to perform certain actions on those pages.", "Hosted training seminars on how to convert a manual Continuous Delivery pipeline in Jenkins to Continuous Deployment.", "Implemented shadow testing for a cross-team repository that involved setting up statistical based alerting via SumoLogic for key endpoints."]
     },
     {
         "company": "Qualtrics", 
