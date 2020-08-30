@@ -1,5 +1,6 @@
 import KarlHitePDF from '../pdf/MWong_KHite_Referral.pdf';
 import DreamTekPDF from '../pdf/MWong_DreamTek_Referral.pdf';
+import SKimPDF from '../pdf/MWong_SKim_Referral.pdf';
 
 export default [
     {
@@ -17,5 +18,13 @@ export default [
         "linkedin": "https://www.linkedin.com/in/jfoldi/",
         "snippet": "Mr. Wong is the “hard work” exemplar. He was hand-selected as the Backend Team Lead for the Project Minions....He ensured quality of work and deftly managed to time and resource constraints. He took responsibility for tasks and commanded authority to achieve them. He frequently sought opportunities to better himself and his team - a sign of an excellent leader.",
         "pdf": DreamTekPDF
+    },
+    {
+        "author": "Steffie Kim",
+        "position": "Ph.D. Candidate",
+        "company": "USC",
+        "linkedin": "https://www.linkedin.com/in/steffiekim/",
+        "snippet": "Mr. Wong’s work helped boost the research project’s speed and improve the reliability and validity of the study. He is very motivated and hard-working, committed to getting the job done while understanding the scope of the project that the issue is related to.",
+        "pdf": SKimPDF
     }
 ]
