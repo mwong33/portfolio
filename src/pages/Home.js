@@ -6,7 +6,7 @@ import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
 import { Button } from 'react-bootstrap';
-import Resume from '../pdf/Matthew_James_Wong\'s_Resume_Q3_2020.pdf';
+import Resume from '../pdf/Matthew_Wong_Resume_Q4_2020.pdf';
 import pageTransition from '../data/PageTransition.js';
 
 export default function Home() {
