@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cc8d7cf1fbebcc6fa2af03433744031",
+    "revision": "0580727474981f70ffb1a502da9a944d",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "6ed7a9cea440537cbeeb",
+    "revision": "37e587fcf1c5b6b2505b",
     "url": "/portfolio/static/css/main.e146bbd1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c28e0d55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ed7a9cea440537cbeeb",
-    "url": "/portfolio/static/js/main.5948b5db.chunk.js"
+    "revision": "37e587fcf1c5b6b2505b",
+    "url": "/portfolio/static/js/main.6eccf154.chunk.js"
   },
   {
     "revision": "f173d2cd79e529e4501b",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/MWong_SKim_Referral.c0c5d27a.pdf"
   },
   {
-    "revision": "09a1685039f9f32a013b326597a17cf0",
-    "url": "/portfolio/static/media/Matthew_James_Wong's_Resume_Q3_2020.09a16850.pdf"
+    "revision": "f4a3ba44397194feee9487bc2d7cf73f",
+    "url": "/portfolio/static/media/Matthew_Wong_Resume_Q4_2020.f4a3ba44.pdf"
   },
   {
     "revision": "70f87bba34487dc1c0cb8916d800c63b",
