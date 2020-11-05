@@ -7,7 +7,6 @@ export class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <hr></hr>
                 <div className="container-fluid">
                     <div className="row justify-content-between align-items-start">
                         <div className="col-8">
