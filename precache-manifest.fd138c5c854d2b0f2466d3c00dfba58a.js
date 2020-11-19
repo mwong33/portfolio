@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "218800b8ea41251d692be91f1a909390",
+    "revision": "4d9a60a869e1fb75487d69236ec48630",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8025faf47d38f909c3c8",
+    "revision": "936002ec0f7a71c46232",
     "url": "/portfolio/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "2f665364d3ca7a3c9e7d",
+    "revision": "af3c6cec05ff5c9f7b35",
     "url": "/portfolio/static/css/main.506b2ebd.chunk.css"
   },
   {
-    "revision": "8025faf47d38f909c3c8",
-    "url": "/portfolio/static/js/2.c6e62969.chunk.js"
+    "revision": "936002ec0f7a71c46232",
+    "url": "/portfolio/static/js/2.30bfd51d.chunk.js"
   },
   {
     "revision": "6b2a00f9eb618caaf9424eca0ee564a1",
-    "url": "/portfolio/static/js/2.c6e62969.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.30bfd51d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f665364d3ca7a3c9e7d",
-    "url": "/portfolio/static/js/main.4301a49b.chunk.js"
+    "revision": "af3c6cec05ff5c9f7b35",
+    "url": "/portfolio/static/js/main.9a5222f1.chunk.js"
   },
   {
     "revision": "f173d2cd79e529e4501b",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c520ecb897695e12a547bb0b47b4f39",
     "url": "/portfolio/static/media/Bootstrap.3c520ecb.png"
+  },
+  {
+    "revision": "6a865dbd93dadb2c78908bcf69668b19",
+    "url": "/portfolio/static/media/FlagBridgeLogo.6a865dbd.png"
   },
   {
     "revision": "c24cde2827448f08d40afd6909011e16",
@@ -62,17 +66,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ff14445e2867be70ee985f0785f3191",
     "url": "/portfolio/static/media/TableTennis.9ff14445.jpg"
-  },
-  {
-    "revision": "f0038b77a92d056cc78f806ff0c9cf1b",
-    "url": "/portfolio/static/media/eBayAndroid.f0038b77.png"
-  },
-  {
-    "revision": "dddd6f958b4f9416609a2e60c435e8d5",
-    "url": "/portfolio/static/media/eBayFlask.dddd6f95.png"
-  },
-  {
-    "revision": "e3fc0719f8f904192d44e3a3a46adec3",
-    "url": "/portfolio/static/media/eBayNode.e3fc0719.png"
   }
 ]);
