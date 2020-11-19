@@ -12,7 +12,9 @@ export default function ProjectCard({project}) {
                 <Card.Text>
                     { project.description }
                 </Card.Text>
-                <Button variant="primary mt-auto" target='_blank' rel="noopener noreferrer nofollow" href={ project.github }>View Project</Button>
+                {project.link !== "" &&
+                    <Button variant="primary mt-auto" target='_blank' rel="noopener noreferrer nofollow" href={ project.link }>View Project</Button>
+                }
             </Card.Body>
         </Card>
     )

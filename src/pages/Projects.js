@@ -16,17 +16,11 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-auto mb-3">
+                    <div className="col-auto mb-6">
                         <ProjectCard project={ TheProjects[0] }/>
                     </div>
-                    <div className="col-auto mb-3">
+                    <div className="col-auto mb-6">
                         <ProjectCard project={ TheProjects[1] }/>
-                    </div>
-                    <div className="col-auto mb-3">
-                        <ProjectCard project={ TheProjects[2] }/>
-                    </div>
-                    <div className="col-auto mb-3">
-                        <ProjectCard project={ TheProjects[3] }/>
                     </div>
                 </div>
             </div>
