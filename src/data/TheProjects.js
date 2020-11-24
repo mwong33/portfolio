@@ -11,9 +11,9 @@ export default [
     },
     {
         "name": "Flag Bridge",
-        "description": "A hybrid app written with React + Ionic designed to improve the player experience of FFG's Star Wars Armada. Coming to Android and iOS soon!",
+        "description": "A hybrid app written with React + Ionic designed to improve the player experience of FFG's Star Wars Armada. Available NOW on Android and coming to iOS soon!",
         "skills": ["React", "Ionic", "TypeScript"],
-        "link": "",
+        "link": "https://play.google.com/store/apps/details?id=com.flagbridge.app",
         "image": FlagBridgeLogo
     }
 ]
