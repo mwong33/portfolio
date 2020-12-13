@@ -11,11 +11,13 @@ export default function Referrals() {
                   <p className="font-italic">What people think of me!</p>
               </div>
           </div>
-          {
-              ReferralsData.map((Referral, index) => {
-                  return <ReferralCard key={ index } referral={ Referral }/>
-              })
-          }
+          <div className="row mt-3 mb-3">
+            {
+                ReferralsData.map((Referral, index) => {
+                    return <ReferralCard key={ index } referral={ Referral }/>
+                })
+            }
+          </div>
       </div>
     )
 }
