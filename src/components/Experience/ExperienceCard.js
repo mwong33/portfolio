@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Card} from 'react-bootstrap';
 import './ExperienceCard.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ExperienceCard({experience}) {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
 
     return (
-        <div className="col-xl-6 col-12 mt-3 mb-3">
+        <div className="col-xl-6 col-12 mt-3 mb-3" data-aos="flip-down">
             <Card className="shadow">
                 <Card.Body>
                     <Card.Title>{ experience.company }</Card.Title>

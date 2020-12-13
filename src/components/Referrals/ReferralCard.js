@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import LinkedIn_Logo from '../../images/LI-Logo.png';
 import { Button, Card } from 'react-bootstrap';
 import './ReferralCard.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ReferralCard({referral}) {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
+
     return (
-        <div className="col-12 col-xl-4 mt-3 mb-3">
+        <div className="col-12 col-xl-4 mt-3 mb-3" data-aos="flip-right">
             <Card>
                 <Card.Body>
                     <Card.Text>
