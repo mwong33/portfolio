@@ -65,7 +65,7 @@ export default function Home() {
                 {/* Made With */}
                 <div className="row row-section align-items-center text-white">
                     <div className="col-12 text-center">
-                        <h2 >Made with <img alt="React" src={ ReactLogo } className="medium-icon"/> + <img alt="Bootstrap" src= { BootstrapLogo } className="medium-icon"/></h2>
+                        <h2>Made with <img alt="React" src={ ReactLogo } className="medium-icon"/> + <img alt="Bootstrap" src= { BootstrapLogo } className="medium-icon"/></h2>
                     </div>
                 </div>
             </div>

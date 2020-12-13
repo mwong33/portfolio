@@ -10,7 +10,8 @@ export class Footer extends Component {
                 <div className="container-fluid">
                     <div className="row justify-content-between text-white font-weight-bold">
                         <div className="col-8">
-                            <p>© MATTHEW WONG 2020</p>
+                            <p className="mb-0">© MATTHEW WONG 2020</p>
+                            <p style={{"fontSize": "10px"}}>Background by SVGBackgrounds.com</p>
                         </div>
                         <div className="col-4">
                             <a href="https://github.com/mwong33"><img alt="GitHub" src={GitHub_Logo} className="gitHub float-right ml-2"/></a>

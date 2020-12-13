@@ -4,7 +4,7 @@ import ReferralCard from './ReferralCard.js';
 
 export default function Referrals() {
     return (
-      <div className="container">
+      <div className="container row-section">
           <div className="row mt-5 mb-3 text-center text-white">
               <div className="col-12">
                   <h1>My Referrals</h1>

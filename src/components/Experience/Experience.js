@@ -4,7 +4,7 @@ import Experiences from '../../data/experience.json';
 
 export default function Experience() {
     return (
-      <div className="container">
+      <div className="container row-section">
           <div className="row mt-5 mb-3 text-center text-white">
               <div className="col-12">
                   <h1>My Experience</h1>
