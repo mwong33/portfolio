@@ -27,7 +27,7 @@ export default function Home() {
         <motion.div id="home" initial="out" animate="in" exit="out" variants={pageTransition}>
             <div className="container-fluid">
                 {/* Background Image */}
-                <div className="row landing-section align-items-center text-white">
+                <div className="row row-section align-items-center text-white">
                     <div className="col-12 text-center">
                         <h1>Hello, I'm Matthew</h1>
                         <p className="paragraph-responsive-text font-italic font-weight-bold">M.S. CS Student at USC</p>
@@ -42,7 +42,7 @@ export default function Home() {
                     </div>
                 </div>
                 {/* Skills */}
-                <div className="row text-white">
+                <div className="row row-section text-white">
                     <div className="col-12">
                         <div className="row">
                             <div className="col-12 text-center pt-4 pb-3">
