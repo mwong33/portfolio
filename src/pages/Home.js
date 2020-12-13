@@ -13,15 +13,6 @@ import Projects from '../components/Projects/Projects.js';
 import Referrals from '../components/Referrals/Referrals.js';
 
 export default function Home() {
-
-    const languages = [
-        {skill: "HTML", score: 90},
-        {skill: "CSS", score: 90},
-        {skill: "JavaScript", score: 70},
-        {skill: "Java", score: 95},
-        {skill: "Python", score: 95}
-    ];
-    
     return (
         <motion.div id="home" initial="out" animate="in" exit="out" variants={pageTransition}>
             <div className="container-fluid">
@@ -38,22 +29,6 @@ export default function Home() {
                     <div className="col-12 text-center">
                         <h2>Welcome to my porfolio!</h2>
                         <p>This is your one stop shop to learn more about me and my experiences!</p>
-                    </div>
-                </div>
-                {/* Skills */}
-                <div className="row row-section text-white">
-                    <div className="col-12">
-                        <div className="row">
-                            <div className="col-12 text-center pt-4 pb-3">
-                                <h2 className="font-weight-bold">My Skillset</h2>
-                                <p className="font-italic">I am an aspiring Computer Scientist. Java and Python are my core, and I am also interested in Web Development!</p>
-                            </div>
-                        </div>
-                        <div className="row justify-content-center mb-5">
-                            <div className="col-md-6 col-xs-12">
-                                <SkillBarGroup skills={ languages }/>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 {/* Experience */}
