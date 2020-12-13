@@ -5,7 +5,7 @@ import './ProjectCard.css'
 export default function ProjectCard({project}) {
 
     return (
-        <Card style={{ width: '18rem' }} className="h-100">
+        <Card style={{ width: '18rem' }} className="h-100 border-0">
             <Card.Img variant="top" src={project.image}/>
             <Card.Body className="d-flex flex-column">
                 <Card.Title>{ project.name }</Card.Title>

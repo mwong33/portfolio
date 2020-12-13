@@ -19,8 +19,7 @@ export default function Home() {
         {skill: "CSS", score: 90},
         {skill: "JavaScript", score: 70},
         {skill: "Java", score: 95},
-        {skill: "Python", score: 95},
-        {skill: "C++", score: 70}
+        {skill: "Python", score: 95}
     ];
     
     return (
