@@ -11,11 +11,13 @@ export default function Experience() {
                   <p className="font-italic">I had the privilege to work with some awesome people!</p>
               </div>
           </div>
-          {
-              Experiences.map((experience, index) => {
-                  return <ExperienceCard key={ index } experience={ experience }/>
-              })
-          }
+          <div className="row mt-3 mb-3">
+            {
+                Experiences.map((experience, index) => {
+                    return <ExperienceCard key={ index } experience={ experience }/>
+                })
+            }
+          </div>
       </div>
     )
 }

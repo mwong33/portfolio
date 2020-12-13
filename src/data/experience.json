@@ -28,7 +28,7 @@
         "title": "Software Test Engineer I", 
         "time": "May 2017 – Sep 2019", 
         "location": "Provo, UT", 
-        "summary": "As a Software Test Engineer at Qualtrics, I drove QE (Quality Engineering) practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
+        "summary": "As a Software Test Engineer at Qualtrics, I drove QE practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
         "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"]
     }
 ]
