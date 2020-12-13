@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import SkillBarGroup from '../components/SkillBarGroup.js';
 import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
