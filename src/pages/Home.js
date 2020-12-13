@@ -6,6 +6,7 @@ import "./Home.css";
 import { Button } from 'react-bootstrap';
 import Resume from '../pdf/Matthew_Wong_Resume_Q4_2020.pdf';
 import pageTransition from '../data/PageTransition.js';
+import Typewriter from "typewriter-effect";
 
 import Experience from '../components/Experience/Experience.js';
 import Projects from '../components/Projects/Projects.js';
@@ -18,16 +19,19 @@ export default function Home() {
                 {/* Background Image */}
                 <div className="row row-section align-items-center text-white">
                     <div className="col-12 text-center">
-                        <h1>Hello, I'm Matthew</h1>
-                        <p className="paragraph-responsive-text font-italic font-weight-bold">M.S. CS Student at USC</p>
+                        <h1>
+                            <Typewriter
+                                options={{
+                                    strings: ["Hello, I'm Matthew", "Welcome to my Portfolio!"],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </h1>
+                        <p className="paragraph-responsive-text font-italic font-weight-bold">
+                            M.S. Student at USC
+                        </p>
                         <a href={ Resume } className="link-unstyled"><Button variant="light rounded-0">View Resume</Button></a>
-                    </div>
-                </div>
-                {/* Introduction */}
-                <div className="row row-section align-items-center text-white">
-                    <div className="col-12 text-center">
-                        <h2>Welcome to my porfolio!</h2>
-                        <p>This is your one stop shop to learn more about me and my experiences!</p>
                     </div>
                 </div>
                 {/* Experience */}
