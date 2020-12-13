@@ -31,14 +31,16 @@ export default function ExperienceCard({experience}) {
                         </Card.Text>
                         {showDetails && <div className="container mt-4 mb-4">
                                 <div className="row">
-                                    <div className="col-sm-6 col-xs-12">
-                                        <span className="font-weight-bold">More Details</span>
-                                        <ul className="mt-2 mb-2">
-                                            { experience.details.map((detail, index) => {
-                                                return <li key={ index }>{detail}</li>
-                                            }) }
-                                        </ul>
-                                    </div>
+                                    {experience.details.length > 0 &&
+                                        <div className="col-sm-6 col-xs-12">
+                                            <span className="font-weight-bold">More Details</span>
+                                            <ul className="mt-2 mb-2">
+                                                { experience.details.map((detail, index) => {
+                                                    return <li key={ index }>{detail}</li>
+                                                }) }
+                                            </ul>
+                                        </div>
+                                    }
                                     <div className="col-sm-6 col-xs-12">
                                         <span className="font-weight-bold">Skills Learned</span>
                                         <ul className="mt-2 mb-2">
