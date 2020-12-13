@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ad4068bd9659ecc29e6f31298aae5c8",
+    "revision": "8c321797996caf9281d6ffc2fd74d490",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "936002ec0f7a71c46232",
-    "url": "/portfolio/static/css/2.437d98bc.chunk.css"
+    "revision": "e700249e7d9b925ceb75",
+    "url": "/portfolio/static/css/2.d9d10d99.chunk.css"
   },
   {
-    "revision": "d0aa8294cb5e2372e043",
-    "url": "/portfolio/static/css/main.506b2ebd.chunk.css"
+    "revision": "0e511bf8bd6aecc2dc9f",
+    "url": "/portfolio/static/css/main.f9e25c79.chunk.css"
   },
   {
-    "revision": "936002ec0f7a71c46232",
-    "url": "/portfolio/static/js/2.30bfd51d.chunk.js"
+    "revision": "e700249e7d9b925ceb75",
+    "url": "/portfolio/static/js/2.208bf5bd.chunk.js"
   },
   {
-    "revision": "6b2a00f9eb618caaf9424eca0ee564a1",
-    "url": "/portfolio/static/js/2.30bfd51d.chunk.js.LICENSE.txt"
+    "revision": "ab7180e8bd3d63bce8232274fa254373",
+    "url": "/portfolio/static/js/2.208bf5bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0aa8294cb5e2372e043",
-    "url": "/portfolio/static/js/main.073d7eba.chunk.js"
+    "revision": "0e511bf8bd6aecc2dc9f",
+    "url": "/portfolio/static/js/main.b309ba54.chunk.js"
   },
   {
     "revision": "f173d2cd79e529e4501b",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/FlagBridgeLogo.6a865dbd.png"
   },
   {
+    "revision": "89c2c0674bdba3d61daf6b1b1e5e82b5",
+    "url": "/portfolio/static/media/GitHub_Logo_White.89c2c067.png"
+  },
+  {
     "revision": "c24cde2827448f08d40afd6909011e16",
     "url": "/portfolio/static/media/LI-Logo.c24cde28.png"
+  },
+  {
+    "revision": "e1057ff850fd2dd577b07e51563b87ad",
+    "url": "/portfolio/static/media/LinkedIn-Logo.e1057ff8.png"
   },
   {
     "revision": "9003fc2b05f4e5497af7e548e892d089",
@@ -62,9 +70,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70f87bba34487dc1c0cb8916d800c63b",
     "url": "/portfolio/static/media/React.70f87bba.png"
-  },
-  {
-    "revision": "9ff14445e2867be70ee985f0785f3191",
-    "url": "/portfolio/static/media/TableTennis.9ff14445.jpg"
   }
 ]);
