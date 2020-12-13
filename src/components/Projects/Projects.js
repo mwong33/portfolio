@@ -4,7 +4,7 @@ import TheProjects from '../../data/TheProjects.js';
 
 export default function Projects() {
     return (
-      <div className="continer">
+      <div className="continer row-section">
           <div className="row mt-5 mb-3 text-center text-white">
               <div className="col-12">
                   <h1>My Projects</h1>
