@@ -5,7 +5,7 @@ import TheProjects from '../../data/TheProjects.js';
 export default function Projects() {
     return (
       <div className="continer">
-          <div className="row mt-5 mb-3 text-center">
+          <div className="row mt-5 mb-3 text-center text-white">
               <div className="col-12">
                   <h1>My Projects</h1>
                   <p className="font-italic">More to come!</p>
