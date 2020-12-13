@@ -1,11 +1,16 @@
-.icon {
-  height: 32px;
-  width: 32px;
+.linkedIn {
+  height: 30px;
+  width: 30px;
+}
+
+.gitHub {
+  height: 30px;
+  width: 30px;
 }
 
 .footer{
   margin-top: 1rem;
-  background-color: white;
+  background-color: transparent;
   position: relative;
   bottom: 0;
   left: 0;

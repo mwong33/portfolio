@@ -1,12 +1,19 @@
 [
     {
-        "company": "DreamTek Industries",
-        "title": "Backend Team Lead",
-        "time": "June 2020 - Aug 2020",
-        "location": "Los Angeles, CA",
-        "summary": "As a Backend Team Lead, I lead a team of 5 developers to build out Project Minions' backend with Node.js and MongoDB.",
-        "skills": ["MongoDB", "Node.js", "Express", "AWS Elastic Beanstalk", "AWS S3 Bucket", "Trello"],
-        "details": ["Conceived and Implemented the Technology & Implementation Roadmap for the entire team.", "Hosted and Organized Weekly Sprints.", "Consulted and Provided technology solutions for external teams.", "Mentored team members on running meetings and writing agendas/briefs.", "Provided Direction and Collaboration with team members on areas of research.", " Research, Development, and Testing of Emerging Technologies: Spatial Anchors, AWS EB v.s. Lambda, APIs, MongoDB v.s. DynamoDB, etc."]
+        "company": "Timbre",
+        "title": "Frontend Developer",
+        "time": "Oct 2020 - Present",
+        "location": "Remote",
+        "summary": "As a Front-End developer, I'm responsible for bringing the CEO's vision for Timbre to life. My tech-stack for this role includes React Native, Expo, and JavaScript.",
+        "skills": ["React Native", "Expo", "JavaScript"]
+    },
+    {
+        "company": "Parfé",
+        "title": "Software Engineer Intern",
+        "time": "Oct 2020 - Present",
+        "location": "Remote",
+        "summary": "As a Software Engineer Intern, I'm working to develop new features for Parfé's growing user base! My tech-stack for this role includes Swift, Ruby on Rails, and Adobe XD for UI mockups and design!",
+        "skills": ["Swift", "Ruby on Rails", "Adobe XD"]
     },
     {
         "company": "Qualtrics", 
@@ -14,25 +21,14 @@
         "time": "Oct 2019 – Aug 2020", 
         "location": "Provo, UT", 
         "summary": "As a Software Test Engineer II at Qualtrics, I was more heavily involved with cross-team projects, including product wide shadow testing, and web-crawling test frameworks.",
-        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira", "Sumo Logic"],
-        "details": ["Converted my developer team's manual release process to Continuous Deployment via Jenkins 2.", "Spearheaded the transition and adoption of a new test framework that utilizes pytest.", "Organized the migration of our company’s end to end test framework's public API usage to the latest version.", "Developed a new test framework designed to crawl through every page of the product and allow other contributors to perform certain actions on those pages.", "Hosted training seminars on how to convert a manual Continuous Delivery pipeline in Jenkins to Continuous Deployment.", "Implemented shadow testing for a cross-team repository that involved setting up statistical based alerting via SumoLogic for key endpoints."]
+        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira", "Sumo Logic"]
     },
     {
         "company": "Qualtrics", 
         "title": "Software Test Engineer I", 
         "time": "May 2017 – Sep 2019", 
         "location": "Provo, UT", 
-        "summary": "As a Software Test Engineer at Qualtrics, I drove QE (Quality Engineering) practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
-        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"],
-        "details": ["Owned, developed and maintined all survey taking end-to-end test automation within Qualtrics.", "Contributed to a selenium based E2E test framework written in Python.", "Contributed to an appium based E2E test framework written in Java.", "Migrated our old release pipelines from Jenkins to Jenkins 2."]
-    },
-    {
-        "company": "Qualtrics", 
-        "title": "Product Analyst", 
-        "time": "Jan 2016 – Apr 2017", 
-        "location": "Provo, UT", 
-        "summary": "Provided second level support for Qualtrics’ Research Core and Employee Experience Platform. Compiled and provided data regarding the nature and severity of support ticket drivers for product meetings.",
-        "skills": ["Jira", "Excel"],
-        "details": ["Specialized in Qualtrics' Employee Experience Platform.", "Escalated Tier 1 and Tier 2 client issues directly to Engineering.", "Filed bug reports with reproducable steps for Engineering via Jira."]
+        "summary": "As a Software Test Engineer at Qualtrics, I drove QE practices within my development team. This involves designing test plans, contributing to test frameworks and developing release pipelines.",
+        "skills": ["Python", "Appium", "Java", "Jenkins", "Jira"]
     }
 ]
