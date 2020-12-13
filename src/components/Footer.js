@@ -8,7 +8,7 @@ export class Footer extends Component {
         return (
             <div className="footer">
                 <div className="container-fluid">
-                    <div className="row justify-content-between align-items-start">
+                    <div className="row justify-content-between">
                         <div className="col-8">
                             <p>© MATTHEW WONG 2020</p>
                         </div>

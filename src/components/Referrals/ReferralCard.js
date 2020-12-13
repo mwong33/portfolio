@@ -1,5 +1,5 @@
 import React from 'react'
-import LinkedIn_Logo from '../images/LI-Logo.png';
+import LinkedIn_Logo from '../../images/LI-Logo.png';
 import { Button, Card } from 'react-bootstrap';
 import './ReferralCard.css';
 
