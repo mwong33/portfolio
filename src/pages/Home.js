@@ -49,8 +49,8 @@ export default function Home() {
                 {/* Referrals */}
                 <Referrals/>
                 {/* Made With */}
-                <div className="row row-section align-items-center text-white" data-aos="fade-up">
-                    <div className="col-12 text-center">
+                <div className="row row-section align-items-center text-white">
+                    <div className="col-12 text-center" data-aos="flip-down">
                         <h2>Made with <img alt="React" src={ ReactLogo } className="medium-icon"/> + <img alt="Bootstrap" src= { BootstrapLogo } className="medium-icon"/></h2>
                     </div>
                 </div>
