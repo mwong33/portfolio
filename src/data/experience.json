@@ -2,17 +2,17 @@
     {
         "company": "Timbre",
         "title": "Frontend Developer",
-        "time": "Oct 2020 - Present",
+        "time": "Oct 2020 - Dec 2020",
         "location": "Remote",
-        "summary": "As a Front-End developer, I'm responsible for bringing the CEO's vision for Timbre to life. My tech-stack for this role includes React Native, Expo, and JavaScript.",
+        "summary": "As a Front-End developer, I was responsible for bringing the CEO's vision for Timbre to life. My tech-stack for this role included React Native, Expo, and JavaScript.",
         "skills": ["React Native", "Expo", "JavaScript"]
     },
     {
         "company": "Parfé",
         "title": "Software Engineer Intern",
-        "time": "Oct 2020 - Present",
+        "time": "Oct 2020 - Dec 2020",
         "location": "Remote",
-        "summary": "As a Software Engineer Intern, I'm working to develop new features for Parfé's growing user base! My tech-stack for this role includes Swift, Ruby on Rails, and Adobe XD for UI mockups and design!",
+        "summary": "As a Software Engineer Intern, I developed new features for Parfé's growing user base! My tech-stack for this role included Swift, Ruby on Rails, and Adobe XD for UI mockups and design!",
         "skills": ["Swift", "Ruby on Rails", "Adobe XD"]
     },
     {

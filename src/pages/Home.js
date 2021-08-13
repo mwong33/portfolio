@@ -4,7 +4,7 @@ import ReactLogo from '../images/React.png';
 import BootstrapLogo from '../images/Bootstrap.png';
 import "./Home.css";
 import { Button } from 'react-bootstrap';
-import Resume from '../pdf/Matthew_Wong_Resume_Q1_2021.pdf';
+import Resume from '../pdf/Matthew_Wong_Resume_Q3_2021.pdf';
 import pageTransition from '../data/PageTransition.js';
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
